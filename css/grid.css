@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 1em 0;
+    margin: 10px 0 1em 0;
 }
 
 h3 {}
@@ -71,9 +71,10 @@ p {
 }
 
 .wrapper > * {
+    /*
     background-color: #444;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 5px;*/
     padding: 20px;
     margin-bottom: 10px;
 }
@@ -100,7 +101,7 @@ header nav a {
 /* links */
 
 a:link {
-    color: #fff;
+    color: #444;
 }
 
 a:visited {
@@ -122,18 +123,25 @@ a:active {
     }
 }
 
-
+#om {}
 
 img {
     max-width: 100%;
 }
 
+img .center {
+    margin: 0 auto;
+}
+
+iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
-    /* 16:9 */
     padding-top: 25px;
-    height:
 }
 
 .videoWrapper iframe {
